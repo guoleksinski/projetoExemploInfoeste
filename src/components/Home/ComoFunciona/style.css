@@ -1,0 +1,120 @@
+.section-como-funciona{
+    position: relative;
+    height: auto;
+}
+
+.como-funciona-box {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-padrao);
+}
+
+.como-funciona-titulo {
+    width: 100%;
+    text-align: center;
+    color: var(--light-font);
+    margin-bottom: calc(var(--espaco-padrao) * 2);
+    letter-spacing: 5px !important;
+    font-size: var(--fonte-h3) !important;
+    font-weight: bold !important;
+}
+
+.como-funciona-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+}
+
+.box-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 75%;
+}
+
+.wave-como-funciona-img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.card-como-funciona {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 22%;
+    height: 100%;
+    background-color: var(--light-font);
+}
+.icone-usuario{
+    height: 35px;
+    width: 40px;
+}
+
+.icone-encontrar-professor{
+    height: 45px;
+    width: 65px;
+}
+
+.icone-calendario{
+    height: 37px;
+    width: 35px;
+}
+
+.icone-check{
+    height: 28px;
+    width: 35px;
+}
+
+.icone-gerenciar-aulas{
+    height: 35px;
+    width: 33px;
+}
+
+.icone-resultados{
+    height: 41px;
+    width: 54px;
+}
+
+
+
+
+
+.card-titulo {
+    width: 100%;
+    font-weight: bold !important;
+    color: var(--dark-font);
+    font-size: var(--fonte-h5) !important;
+}
+
+.card-texto {
+    width: 100%;
+    font-weight: 500 !important;
+    color: var(--dark-font);
+    font-size: var(--fonte-small) !important;
+}
+
+.tabs-como-funciona-label {
+    font-weight: bold !important;
+}
+
+
+.MuiTabs-indicator{
+    border: 1px solid white !important;
+}
+
+.MuiTab-textColorPrimary {
+    color: rgb(203, 203, 203) !important;
+}
+
+
+.MuiTab-root.Mui-selected {
+    color: rgb(255, 255, 255) !important;
+}

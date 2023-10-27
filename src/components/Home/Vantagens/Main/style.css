@@ -1,0 +1,76 @@
+.vantagens-box {
+    background-color: var(--light-font);
+    height: 60vh;
+}
+
+.vantagens-container {
+    display: flex !important;
+    flex-direction: row !important;
+    padding-top: calc(var(--espaco-padrao) * 7) !important;
+    padding-bottom: calc(var(--espaco-padrao) * 7) !important;
+}
+
+.vantagens-primeiro-container {
+    width: 35%;
+    height: 100%;
+}
+
+
+.vantagens-titulo {
+    width: 90%;
+    font-weight: bold !important;
+    color: var(--dark-font);
+    font-size: var(--fonte-h3) !important;
+}
+
+.vantagens-subtitulo {
+    width: 70%;
+    font-weight: 600 !important;
+    font-size: var(--fonte-h5) !important;
+    color: var(--dark-font);
+}
+
+.vantagens-segundo-container {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vantagens-card {
+    width: 32%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.vantagens-icon-container {
+    width: 20%;
+    height: 15%;
+    border-radius: var(--borda-padrao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(var(--espaco-padrao) * 5);
+}
+
+.vantagens-icon {
+    font-size: var(--fonte-h2) !important;
+    color: var(--cor-padrao);
+}
+
+.vantagens-card-titulo {
+    width: 100%;
+    font-weight: bold !important;
+    color: var(--dark-font);
+    font-size: var(--fonte-h5) !important;
+    margin-bottom: calc(var(--espaco-padrao) * 2) !important;
+}
+
+.vantagens-card-texto {
+    width: 100%;
+    font-weight: 500 !important;
+    color: var(--dark-font);
+    font-size: var(--fonte-small) !important;
+}

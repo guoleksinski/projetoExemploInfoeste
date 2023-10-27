@@ -1,0 +1,40 @@
+section {
+    width: 100%;
+}
+
+.box-estatisticas {
+    height: 15vh !important;
+    background-color: var(--light-font);
+}
+
+.container-estatisticas {
+    display: flex !important;
+    padding: calc(var(--espaco-padrao) * 4) 0 calc(var(--espaco-padrao) * 4) 0 ;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.estatistica {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.estatistica-qtd, .estatistica-titulo {
+    color: var(--dark-font);
+}
+
+.estatistica-qtd {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.estatistica-titulo {
+    font-size: 20px;
+    font-weight: 400;
+}
